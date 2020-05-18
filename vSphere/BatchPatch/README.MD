@@ -1,0 +1,2 @@
+Script to Integrate in Custom Actions in BatchPatch (https://batchpatch.com) that manage vSphere Hosts
+Output of these Scripts is being displayed in BatchPatch Column (especially for the Snapshot Commands)
