@@ -1,3 +1,5 @@
+// Umlaut Encoding in Java Script 
+
 Ä %C4
 Ö %D6
 Ü %DC
