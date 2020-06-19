@@ -1,5 +1,12 @@
 # Handle Exchange Move Requests
 
+# Load Snap In (when called in PowerShell ISE and not in Exchange Management Shell)
+# Snapin for Exchange 2013 and later
+  Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn; 
+
+# Show current Database
+  Get-mailbox -identity LOGONID | fl database, alias
+
 # New Batch
   New-MoveRequest -Identity ALIAS -TargetDatabase DATABASE -BatchName ALIAS -BadItemLimit 10000
 
